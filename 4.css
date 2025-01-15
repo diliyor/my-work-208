@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgray;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+    background-color: white;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    position: relative;
+    padding-bottom: 25px;
+}
+.top .top-i i {
+    font-size: 30px;
+    color: grey;
+}
+.top .top-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+    margin-right: 100px;
+}
+.top .top-i h1 {
+    margin-left: 30px;
+    color: grey;
+}
+.top .label ul {
+    display: flex;
+    justify-content: center;
+    border: 1px lightgray solid;
+}
+.top .label ul li {
+    margin: 30px;
+    list-style: none;
+    font-size: 20px;
+    height: 40px;
+}
+.top .label ul li a {
+    text-decoration: none;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    font-weight: 800;
+}
+.top .label {
+    margin-top: 30px;
+}
+.top .label ul li .a4 {
+    color: black;
+    padding: 0px 20px 40px 20px;
+    border: none;
+    border-bottom: 5px solid blue;
+}
+.top .label ul li .a4:hover {
+    color: black;
+    border: none;
+    padding: 0px 20px 40px 20px;
+    border-bottom: 5px solid blue;
+    transition: 0.4s;
+}
+
+.header-img img {
+    width: 100%;
+}
+.block {
+    background-color: brown;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    width: 380px;
+    position: relative;
+    top: -30px;
+    left: -325px;
+}
+.navbar {
+    display: flex;
+}
+.navbar .box1 {
+    margin: 50px;
+}
+.navbar .box1 input {
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 5px 200px 5px 5px;
+    color: grey;
+}
+.navbar .box1 textarea {
+    color: grey;
+    padding: 5px 200px 50px 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.navbar .box1 button {
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 240px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+.navbar .box2 {
+    margin: 50px;
+    margin-left: 150px;
+    width: 350px;
+    margin-bottom: 20px;
+    color: grey;
+    text-align: left;
+}
+.navbar .box2 p span {
+    color: blue;
+}
+.block10 img {
+    width: 95%;
+}
+.bottom {
+    display: flex;
+    color: grey;
+}
+.bottom .box1 {
+    width: 500px;
+    text-align: left;
+    margin: 30px;
+}
+.bottom .box2 {
+    width: 500px;
+    text-align: left;
+    margin: 30px;
+}
+.bottom h2 {
+    color: blue;
+}
+.bottom2 {
+    color: grey;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
